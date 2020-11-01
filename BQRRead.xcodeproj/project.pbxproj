@@ -13,6 +13,7 @@
 		C3BB5FF3254EDB980062C3A2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3BB5FF1254EDB980062C3A2 /* Main.storyboard */; };
 		C3BB5FF5254EDB9B0062C3A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3BB5FF4254EDB9B0062C3A2 /* Assets.xcassets */; };
 		C3BB5FF8254EDB9B0062C3A2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3BB5FF6254EDB9B0062C3A2 /* LaunchScreen.storyboard */; };
+		C3BB6002254EDDEE0062C3A2 /* BarcodeResults.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3BB6001254EDDEE0062C3A2 /* BarcodeResults.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		C3BB5FF4254EDB9B0062C3A2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C3BB5FF7254EDB9B0062C3A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C3BB5FF9254EDB9B0062C3A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C3BB6001254EDDEE0062C3A2 /* BarcodeResults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarcodeResults.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				C3BB5FEB254EDB980062C3A2 /* AppDelegate.swift */,
 				C3BB5FED254EDB980062C3A2 /* SceneDelegate.swift */,
 				C3BB5FEF254EDB980062C3A2 /* ViewController.swift */,
+				C3BB6001254EDDEE0062C3A2 /* BarcodeResults.swift */,
 				C3BB5FF1254EDB980062C3A2 /* Main.storyboard */,
 				C3BB5FF4254EDB9B0062C3A2 /* Assets.xcassets */,
 				C3BB5FF6254EDB9B0062C3A2 /* LaunchScreen.storyboard */,
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C3BB5FF0254EDB980062C3A2 /* ViewController.swift in Sources */,
+				C3BB6002254EDDEE0062C3A2 /* BarcodeResults.swift in Sources */,
 				C3BB5FEC254EDB980062C3A2 /* AppDelegate.swift in Sources */,
 				C3BB5FEE254EDB980062C3A2 /* SceneDelegate.swift in Sources */,
 			);
@@ -216,7 +220,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -271,7 +275,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
